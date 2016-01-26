@@ -8,6 +8,9 @@ COMPILE:
 	run "./client_socket localhost socket#"
 		Ex) ./client_socket localhost 51717
 			./client_socket 127.0.0.1 51717
+	***NOTE***
+		If running this more than once, please make sure (if you wish to restart bidding at 0) that curr_bid.txt contains ONLY a 0 and a newline.
+		bidders.txt and bid_history.txt should be deleted.
 
 LIST OF FILES IN REPO (and brief description):
 	BUGS
